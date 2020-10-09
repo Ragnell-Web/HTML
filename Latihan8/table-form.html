@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table-Form</title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="username">Username :</label>
+                </td>
+                <td><input type="text" name="username" id="Username"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password :</label></td>
+                <td><input type="password" name="password" id="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="radio" id="pria" name="jeniskelamin"><label for="pria">Pria</label>
+                <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">Wanita</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" name="pilih" id="menyanyi"><label for="menyanyi">Menyanyi</label>
+                    <input type="checkbox" name="pilih" id="olahraga"><label for="olahraga">Olahraga</label>
+                    <input type="checkbox" name="pilih" id="ngoding"><label for="ngoding">Ngoding</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="kota">Kota :</label>
+                </td>
+                <td>
+                    <select name="kota" id="kota">
+                        <option value="">Bandung</option>
+                        <option value="">Yogyakarta</option>
+                        <option value="">Jakarta</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="komentar">Komentar :</label></td>
+                <td>
+                    <textarea name="komentar" id="komentar" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit">Kirim !</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
